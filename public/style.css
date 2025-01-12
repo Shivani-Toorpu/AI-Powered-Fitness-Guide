@@ -1,0 +1,71 @@
+/* Reset body margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavender; /* Keep or change as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center vertically */
+}
+
+/* Center container and give it styling */
+.container {
+    background-color: white; /* Card-style look */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Fixed width for a clean look */
+    text-align: center; /* Center align the text */
+}
+
+/* Heading styling */
+h1 {
+    margin-bottom: 20px;
+    color: red; /* You can change the color if needed */
+    font-size: 20px;
+}
+
+/* Styling for form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input fields styling */
+input, select {
+    width: 100%; /* Full width input fields */
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full-width button */
+    max-width: 300px;
+    padding: 10px;
+    background-color: red; /* Keep the default or adjust */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Remove focus outline on input and button */
+input:focus, select:focus, button:focus {
+    outline: none;
+}
