@@ -18,7 +18,7 @@ A web-based fitness tracker that generates personalized calorie intake and worko
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/Shivani-Toorpu/AI-Powered-Fitness-Guide.git)>
    ```
 2. Navigate to the project directory:
    ```bash
